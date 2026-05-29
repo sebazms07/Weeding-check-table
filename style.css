@@ -253,3 +253,221 @@ header p {
         transform: translateY(0);
     }
 }
+
+/* =========================
+   DOTS MEMORIES SECTION
+========================= */
+
+.memory-section {
+    margin-top: 35px;
+    padding: 32px 26px;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 24px;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.04),
+        0 2px 10px rgba(0, 0, 0, 0.03);
+    text-align: center;
+    animation: fadeIn 0.6s ease;
+    backdrop-filter: blur(12px);
+}
+
+.memory-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--accent-pastel);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+    color: var(--primary-pastel);
+    font-size: 1.4rem;
+}
+
+.memory-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--primary-pastel);
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+}
+
+.memory-section p {
+    color: var(--text-light);
+    font-size: 0.92rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.memory-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 24px;
+    border-radius: 999px;
+    background: var(--primary-pastel);
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease,
+        box-shadow 0.2s ease;
+
+    box-shadow:
+        0 6px 16px rgba(212, 163, 115, 0.25);
+}
+
+.memory-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+.memory-code-box {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.memory-code-box span {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-light);
+}
+
+.memory-code {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--primary-pastel);
+    font-weight: 600;
+}
+
+.copy-memory-button {
+    margin-top: 14px;
+    border: none;
+    background: #F5F1EB;
+    color: var(--primary-pastel);
+    padding: 11px 18px;
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.copy-memory-button:hover {
+    transform: translateY(-2px);
+    background: #EEE7DD;
+}
+
+/* ========================= HERO PHOTO ========================= */
+.hero-photo {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========================= EVENT COUNTER ========================= */
+.event-counter {
+    margin-top: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(212, 163, 115, 0.10);
+    color: var(--primary-pastel);
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+/* ========================= LOADING STATE ========================= */
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.loading-card {
+    height: 92px;
+    border-radius: 18px;
+    background: #F3F3F3;
+    overflow: hidden;
+    position: relative;
+}
+
+.shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    animation: shimmer 1.3s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        left: 100%;
+    }
+}
+
+/* ========================= FOOTER ========================= */
+.footer {
+    margin-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer p {
+    color: var(--text-light);
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+.footer small {
+    color: var(--primary-pastel);
+    font-size: 0.82rem;
+    letter-spacing: 1px;
+}
+
+/* ========================= PWA SAFE MOBILE ========================= */
+html,
+body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ========================= MOBILE POLISH ========================= */
+@media (max-width: 480px) {
+    .hero-photo {
+        width: 96px;
+        height: 96px;
+    }
+
+    header h1 {
+        font-size: 2.4rem;
+    }
+
+    .gift-section,
+    .memory-section {
+        padding: 28px 22px;
+    }
+}

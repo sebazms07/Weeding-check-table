@@ -3,43 +3,267 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
     <title>Sebas & Mile ✨</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="style.css?v=6">
+
+    <!-- FAVICON -->
+    <link rel="icon"
+        type="image/png"
+        href="favicon.png">
+
+    <!-- PWA -->
+    <link rel="manifest"
+        href="manifest.json">
+
+    <meta name="theme-color"
+        content="#D4A373">
+
+    <meta name="apple-mobile-web-app-capable"
+        content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+        content="default">
+
+    <meta name="apple-mobile-web-app-title"
+        content="Sebas & Mile">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+        href="style.css?v=10">
+
+    <!-- FONTS -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
+
     <div class="container">
+
+        <!-- =========================
+             HEADER
+        ========================== -->
+
         <header>
+
+            <div class="hero-photo">
+
+                <img
+                    src="couple.jpg"
+                    alt="Sebas y Mile">
+
+            </div>
+
             <h1>Sebas & Mile</h1>
-            <p>Encuentra tu mesa para celebrar con nosotros</p>
+
+            <p>
+                Encuentra tu mesa para celebrar con nosotros
+            </p>
+
+            <div class="event-counter">
+                8 mesas preparadas con amor ✨
+            </div>
+
         </header>
+
+        <!-- =========================
+             MAIN
+        ========================== -->
+
         <main>
-            <div class="search-box"> <input type="text" id="searchInput" placeholder="Escribe tu nombre o apellido..."
-                    autocomplete="off"> </div>
-            <div id="results" class="results-container"></div>
-            <section class="gift-section">
-                <h2>Un detalle con cariño</h2>
-                <p> Tu presencia es lo más importante para nosotros y estamos felices de compartir este día contigo.
-                </p>
-                <p> Si tenías pensado acompañarnos también con un detalle y prefieres hacerlo de manera digital, dejamos
-                    esta opción disponible con mucho cariño. </p>
-                <div class="gift-account">
-                    <div class="gift-icon"> <i class="fa-solid fa-gift"></i> </div> <span>Llave Bancolombia</span>
-                    <div class="account-number" id="accountNumber"> 3007209807 </div> <small> Sebastián Meneses </small>
-                    <button class="copy-button" id="copyButton"> <i class="fa-regular fa-copy"></i> Copiar número
-                    </button>
-                    <div class="copy-feedback" id="copyFeedback"> Número copiado ✨ </div>
+
+            <!-- =========================
+                 LOADING
+            ========================== -->
+
+            <div id="loadingState"
+                class="loading-state">
+
+                <div class="loading-card shimmer"></div>
+                <div class="loading-card shimmer"></div>
+                <div class="loading-card shimmer"></div>
+
+            </div>
+
+            <!-- =========================
+                 SEARCH
+            ========================== -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Escribe tu nombre o apellido..."
+                    autocomplete="off">
+
+            </div>
+
+            <!-- =========================
+                 RESULTS
+            ========================== -->
+
+            <div id="results"
+                class="results-container">
+            </div>
+
+            <!-- =========================
+                 DOTS MEMORIES
+            ========================== -->
+
+            <section class="memory-section">
+
+                <div class="memory-icon">
+                    <i class="fa-solid fa-camera-retro"></i>
                 </div>
+
+                <h2>Mile & Sebas</h2>
+
+                <p>
+                    Mira y comparte todos los momentos especiales
+                    de nuestra celebración ✨
+                </p>
+
+                <a
+                    href="https://web.dotstheapp.com/a?group=2441802&dlBy=sebaz.ms07&code=hbqTILGkl8jU&utm_source=guest&utm_medium=share&utm_campaign=guest_event_album"
+                    target="_blank"
+                    class="memory-button">
+
+                    Abrir álbum
+
+                </a>
+
+                <div class="memory-code-box">
+
+                    <span>
+                        Código de acceso
+                    </span>
+
+                    <div class="memory-code"
+                        id="memoryCode">
+
+                        hbqTILGkl8jU
+
+                    </div>
+
+                    <button
+                        class="copy-memory-button"
+                        id="copyMemoryButton">
+
+                        <i class="fa-regular fa-copy"></i>
+
+                        Copiar código
+
+                    </button>
+
+                    <div class="copy-feedback"
+                        id="memoryFeedback">
+
+                        Código copiado ✨
+
+                    </div>
+
+                </div>
+
             </section>
+
+            <!-- =========================
+                 GIFT SECTION
+            ========================== -->
+
+            <section class="gift-section">
+
+                <h2>Un detalle con cariño</h2>
+
+                <p>
+                    Tu presencia es lo más importante para nosotros
+                    y estamos felices de compartir este día contigo.
+                </p>
+
+                <p>
+                    Si tenías pensado acompañarnos también con un detalle
+                    y prefieres hacerlo de manera digital,
+                    dejamos esta opción disponible con mucho cariño.
+                </p>
+
+                <div class="gift-account">
+
+                    <div class="gift-icon">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+
+                    <span>
+                        Llave Bancolombia
+                    </span>
+
+                    <div class="account-number"
+                        id="accountNumber">
+
+                        3007209807
+
+                    </div>
+
+                    <small>
+                        Sebastián Meneses
+                    </small>
+
+                    <button
+                        class="copy-button"
+                        id="copyButton">
+
+                        <i class="fa-regular fa-copy"></i>
+
+                        Copiar número
+
+                    </button>
+
+                    <div class="copy-feedback"
+                        id="copyFeedback">
+
+                        Número copiado ✨
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 FOOTER
+            ========================== -->
+
+            <footer class="footer">
+
+                <p>
+                    Gracias por acompañarnos
+                    en este día tan especial ✨
+                </p>
+
+                <small>
+                    Con amor, Sebas & Mile
+                </small>
+
+            </footer>
+
         </main>
+
     </div>
+
+    <!-- =========================
+         JS
+    ========================== -->
+
     <script src="app.js"></script>
+
 </body>
 
 </html>
