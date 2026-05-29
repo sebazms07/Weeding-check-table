@@ -70,16 +70,6 @@
 "Select": "Familia"
 },
 {
-"Name": "Paola Vanegas",
-"Cantidad": 1,
-"Confirmado": "Yes",
-"Invitado": "Yes",
-"Invitado por ": "Sebas",
-"Mesa": 3,
-"Restricciones Alimenticias": "",
-"Select": "Amigos"
-},
-{
 "Name": "Margarita Montoya ",
 "Cantidad": 1,
 "Confirmado": "Yes",
@@ -150,7 +140,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "Daniela Acosta Sánchez , Daniel ",
+"Name": "Daniela Acosta Sánchez & Daniel Cardona",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -160,7 +150,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "Alejandra Lucero ",
+"Name": "Alejandra Lucero Ortega",
 "Cantidad": 1,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -170,7 +160,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "María Edilma Yepes, Huguito ",
+"Name": "María Edilma Yepes & Hugo Ferney Jimenez Jimenez ",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -180,7 +170,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Leidy Johana Pava, Victor Hincapie",
+"Name": "Leidy Johana Pava & Victor Hugo Hincapie",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -190,7 +180,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Flor Alba Yepes, Oliverio Pava",
+"Name": "Flor Alba Yepes & Oliverio Pava Cardozo",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -200,7 +190,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Ricardo Andrés Pava, Diana , Jacobo",
+"Name": "Ricardo Andrés Pava, Diana Cristina Aristizabal & Jacobo Pava Aristizabal",
 "Cantidad": 3,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -210,7 +200,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Viviana Andrea Yepes, Hugo Quintero, María Hanna",
+"Name": "Viviana Andrea Yepes, Hugo Quintero & María Hanna Arroyo",
 "Cantidad": 3,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -220,7 +210,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Sonia Liliana Yepes, Jhon Jairo",
+"Name": "Sonia Liliana Yepes & Jhon Jairo Arias",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -230,7 +220,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Netali Yepes, Belarmina, Ana María, Juan Pablo",
+"Name": "Neftali Yepes, Belarmina Pava, Ana María Yepes & Juan Pablo Yepes",
 "Cantidad": 4,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -240,7 +230,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Camilo Mesa ",
+"Name": "Camilo Mesa Yepes ",
 "Cantidad": 1,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -250,7 +240,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Paola Jaramillo y frank",
+"Name": "Paola Jaramillo Yepes & Frank Felipe Jaramillo",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -270,7 +260,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Jesús Antonio Pava, Esneda, Kate",
+"Name": "Jesús Antonio Pava, Esneda Osorio, Katerinne Pava",
 "Cantidad": 3,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -280,7 +270,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Sonia Liliana Pava, Anuar Ramires",
+"Name": "Sonia Liliana Pava & Anuar Ramirez",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -300,7 +290,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "Ana Yeimi Yepes, Adrían Felipe",
+"Name": "Ana Yeimi Yepes & Adrían Felipe Rios",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -330,7 +320,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "Emilia, Gerzain",
+"Name": "Emilia Londoño & Gerzain Quintero",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -340,7 +330,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "Sandra Patricia y Marti ",
+"Name": "Sandra Patricia Alvarez & Martin Villa ",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -360,7 +350,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "Jorge Hernán Aguirre, Esposa",
+"Name": "Jorge Hernán Aguirre & Gloria Clemencia Franco",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -380,7 +370,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "Ximena Quintero, Jorge Angel",
+"Name": "Maria Ximena Quintero & Jorge Angel",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -400,7 +390,7 @@
 "Select": "Amigos"
 },
 {
-"Name": "Kellito & Mateo Acosta",
+"Name": "Kelly Espinosa & Mateo Acosta",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -430,7 +420,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Sebastián Meneses y Milena Zuluaga",
+"Name": "Sebastián Meneses & Milena Zuluaga",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -440,7 +430,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "Gustavo Salazar y Norita Gómez",
+"Name": "Gustavo Salazar & Norita Gómez",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -450,7 +440,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "David y Mariana ",
+"Name": "David Quintero & Mariana Delgado ",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -460,7 +450,7 @@
 "Select": "Pareja Amigos"
 },
 {
-"Name": "Samuel Sanchez y Natalia Correa",
+"Name": "Samuel Sanchez & Natalia Correa",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
@@ -470,7 +460,7 @@
 "Select": "Familia"
 },
 {
-"Name": "Andrea Pava & Juan Simon",
+"Name": "Andrea Pava & Juan Simon Jaramillo",
 "Cantidad": 2,
 "Confirmado": "Yes",
 "Invitado": "Yes",
