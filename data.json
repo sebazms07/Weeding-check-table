@@ -5,7 +5,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 3,
+"Mesa": 4,
 "Restricciones Alimenticias": "",
 "Select": "Amigos"
 },
@@ -25,7 +25,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 3,
+"Mesa": 4,
 "Restricciones Alimenticias": "No le gusta CEBOLLA",
 "Select": "Amigos"
 },
@@ -35,7 +35,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 2,
+"Mesa": 3,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
@@ -45,7 +45,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 3,
+"Mesa": 4,
 "Restricciones Alimenticias": "",
 "Select": "Amigos"
 },
@@ -55,7 +55,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 2,
+"Mesa": 3,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
@@ -95,7 +95,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 2,
+"Mesa": 3,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
@@ -105,7 +105,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 3,
+"Mesa": 4,
 "Restricciones Alimenticias": "",
 "Select": "Amigos"
 },
@@ -125,7 +125,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 3,
+"Mesa": 4,
 "Restricciones Alimenticias": "CAROLINA: Pimentón, repollo y pepino cohombro ",
 "Select": "Amigos"
 },
@@ -165,7 +165,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Mile",
-"Mesa": 4,
+"Mesa": 2,
 "Restricciones Alimenticias": "MARIA EDILMA: SALSA BBQ.",
 "Select": "Familia"
 },
@@ -205,7 +205,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Mile",
-"Mesa": 4,
+"Mesa": 2,
 "Restricciones Alimenticias": "VIVIANA: QUESO",
 "Select": "Familia"
 },
@@ -225,7 +225,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Mile",
-"Mesa": 4,
+"Mesa": 2,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
@@ -235,7 +235,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Mile",
-"Mesa": 4,
+"Mesa": 2,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
@@ -455,7 +455,7 @@
 "Confirmado": "Yes",
 "Invitado": "Yes",
 "Invitado por ": "Sebas",
-"Mesa": 2,
+"Mesa": 3,
 "Restricciones Alimenticias": "",
 "Select": "Familia"
 },
