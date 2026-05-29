@@ -1,0 +1,134 @@
+/* Variables de paleta pastel y tipografía */
+:root {
+    --bg-pastel: #FDFBF7;
+    --primary-pastel: #D4A373;
+    --accent-pastel: #E9EDC9;
+    --card-bg: #FFFFFF;
+    --text-dark: #4A4A4A;
+    --text-light: #8D8D8D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-pastel);
+    color: var(--text-dark);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px; /* Ancho máximo ideal para la vista móvil */
+    text-align: center;
+    margin-top: 40px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: var(--primary-pastel);
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 0.95rem;
+    color: var(--text-light);
+}
+
+.search-box {
+    margin-bottom: 25px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #EAEAEA;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.search-box input:focus {
+    border-color: var(--primary-pastel);
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.guest-card {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-left: 5px solid var(--accent-pastel);
+    animation: fadeIn 0.4s ease;
+}
+
+.guest-card .guest-info h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: var(--text-dark);
+}
+
+.guest-card .guest-info span {
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+.guest-card .table-badge {
+    background-color: var(--primary-pastel);
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.guest-card .table-badge span {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.guest-card .table-badge strong {
+    font-size: 1.3rem;
+    line-height: 1.1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
