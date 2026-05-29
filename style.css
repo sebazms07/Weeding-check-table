@@ -132,3 +132,48 @@ header p {
         transform: translateY(0);
     }
 }
+.table-summary-card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.table-summary-card:hover {
+    transform: translateY(-2px);
+}
+
+.table-preview {
+    margin-top: 10px;
+    font-size: 0.75rem;
+    color: #8D8D8D;
+    line-height: 1.5;
+}
+
+.table-details {
+    margin-top: 15px;
+    border-top: 1px solid #EFEFEF;
+    padding-top: 12px;
+    animation: fadeIn 0.3s ease;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+}
+
+.detail-row strong {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.detail-row small {
+    color: #8D8D8D;
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none;
+}
