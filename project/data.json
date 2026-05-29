@@ -1,0 +1,492 @@
+[
+{
+"Name": "Juliana María Villegas, Camilo Valencia",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Katherine Rodriguez & Camilo Covaleda ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Cristian Eduardo Rodriguez",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "No le gusta CEBOLLA",
+"Select": "Amigos"
+},
+{
+"Name": "Jose Raúl Meneses, Nhora Rojas & Isabella Meneses",
+"Cantidad": 3,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 2,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Daniel Herrera & María Fernanda Bautista ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Angie Cardenas & Sergio Valencia",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 2,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Karol Viviana Meneses",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Paola Vanegas",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Margarita Montoya ",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Bibiana Vargas & Erick Candanedo",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Michelle Valentina Meneses ",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 2,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Esteban Toledo & Ana Vásquez ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Andres Velasquez & Daniela Reyes",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Carolina Infante & Cristian Rios",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 3,
+"Restricciones Alimenticias": "CAROLINA: Pimentón, repollo y pepino cohombro ",
+"Select": "Amigos"
+},
+{
+"Name": "María Fernanda Toro",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Daniela Acosta Sánchez , Daniel ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Alejandra Lucero ",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "María Edilma Yepes, Huguito ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 4,
+"Restricciones Alimenticias": "MARIA EDILMA: SALSA BBQ.",
+"Select": "Familia"
+},
+{
+"Name": "Leidy Johana Pava, Victor Hincapie",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Flor Alba Yepes, Oliverio Pava",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 5,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Ricardo Andrés Pava, Diana , Jacobo",
+"Cantidad": 3,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 5,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Viviana Andrea Yepes, Hugo Quintero, María Hanna",
+"Cantidad": 3,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 4,
+"Restricciones Alimenticias": "VIVIANA: QUESO",
+"Select": "Familia"
+},
+{
+"Name": "Sonia Liliana Yepes, Jhon Jairo",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 5,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Netali Yepes, Belarmina, Ana María, Juan Pablo",
+"Cantidad": 4,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 4,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Camilo Mesa ",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 4,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Paola Jaramillo y frank",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 5,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Laura Torres",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 5,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Jesús Antonio Pava, Esneda, Kate",
+"Cantidad": 3,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 6,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Sonia Liliana Pava, Anuar Ramires",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Valentina Hernandez",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Ana Yeimi Yepes, Adrían Felipe",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Vanessa Urrea",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Estefanía Ramirez",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Emilia, Gerzain",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 6,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "Sandra Patricia y Marti ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Gloria Echeverri ",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 6,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "Jorge Hernán Aguirre, Esposa",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 6,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Andrea Lombana",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "Ximena Quintero, Jorge Angel",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Evelyn Ospina",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 7,
+"Restricciones Alimenticias": "NADA CON CERDO",
+"Select": "Amigos"
+},
+{
+"Name": "Kellito & Mateo Acosta",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+},
+{
+"Name": "Carlos Andres Acosta",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Alejandro Acosta Meneses",
+"Cantidad": 1,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Sebastián Meneses y Milena Zuluaga",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "Gustavo Salazar y Norita Gómez",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 1,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "David y Mariana ",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Pareja Amigos"
+},
+{
+"Name": "Samuel Sanchez y Natalia Correa",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Sebas",
+"Mesa": 2,
+"Restricciones Alimenticias": "",
+"Select": "Familia"
+},
+{
+"Name": "Andrea Pava & Juan Simon",
+"Cantidad": 2,
+"Confirmado": "Yes",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 6,
+"Restricciones Alimenticias": "ANDREA PAVA: PIMENTON, CERDO",
+"Select": "Familia"
+},
+{
+"Name": "Daniel Quintero",
+"Cantidad": 1,
+"Confirmado": "No",
+"Invitado": "Yes",
+"Invitado por ": "Mile",
+"Mesa": 8,
+"Restricciones Alimenticias": "",
+"Select": "Amigos"
+}
+]
