@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     const searchInput = document.getElementById('searchInput');
     const resultsContainer = document.getElementById('results');
 
@@ -7,16 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
+
             guests = data;
 
-            // Mostrar mesas apenas cargue
             renderTablesOverview();
-        })
-        .catch(error => console.error('Error cargando el JSON:', error));
 
-    // Normalizar texto
+        })
+        .catch(error => console.error('Error cargando JSON:', error));
+
     const normalizeString = (str) => {
-        return str.normalize("NFD")
+        return str
+            .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
             .toLowerCase();
     };
@@ -24,110 +26,113 @@ document.addEventListener('DOMContentLoaded', () => {
     // =========================
     // RESUMEN DE MESAS
     // =========================
-    const renderTablesOverview = () => {
+
+    function renderTablesOverview() {
 
         resultsContainer.innerHTML = '';
 
-        // Solo confirmados
-        const confirmedGuests = guests.filter(
-            guest => guest.Confirmado === "Yes"
-        );
-
-        // Agrupar por mesa
         const tables = {};
 
-        confirmedGuests.forEach(guest => {
+        guests
+            .filter(g => g.Confirmado === "Yes")
+            .forEach(guest => {
 
-            const tableNumber = guest.Mesa;
+                if (!tables[guest.Mesa]) {
+                    tables[guest.Mesa] = [];
+                }
 
-            if (!tables[tableNumber]) {
-                tables[tableNumber] = {
-                    guests: [],
-                    totalPeople: 0
-                };
-            }
-
-            tables[tableNumber].guests.push(guest);
-
-            tables[tableNumber].totalPeople += Number(guest.Cantidad || 0);
-        });
-
-        // Ordenar mesas
-        const sortedTables = Object.keys(tables).sort((a, b) => a - b);
-
-        sortedTables.forEach(tableNumber => {
-
-            const table = tables[tableNumber];
-
-            const card = document.createElement('div');
-            card.className = 'guest-card table-summary-card';
-
-            const guestNames = table.guests
-                .map(g => g.Name)
-                .join(' • ');
-
-            card.innerHTML = `
-                <div class="guest-info">
-                    <h3>Mesa ${tableNumber}</h3>
-
-                    <span>
-                        ${table.totalPeople} personas
-                    </span>
-
-                    <p class="table-preview">
-                        ${guestNames}
-                    </p>
-
-                    <div class="table-details hidden">
-                        ${table.guests.map(guest => `
-                            <div class="detail-row">
-                                <strong>${guest.Name}</strong>
-                                <small>
-                                    ${guest.Cantidad} puesto(s)
-                                </small>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-
-                <div class="table-badge">
-                    <span>Mesa</span>
-                    <strong>${tableNumber}</strong>
-                </div>
-            `;
-
-            // Expandir detalle
-            card.addEventListener('click', () => {
-                const details = card.querySelector('.table-details');
-
-                details.classList.toggle('hidden');
+                tables[guest.Mesa].push(guest);
             });
 
-            resultsContainer.appendChild(card);
-        });
-    };
+        Object.keys(tables)
+            .sort((a, b) => a - b)
+            .forEach(tableNumber => {
+
+                const tableGuests = tables[tableNumber];
+
+                const totalPeople = tableGuests.reduce((acc, guest) => {
+                    return acc + Number(guest.Cantidad || 0);
+                }, 0);
+
+                const namesPreview = tableGuests
+                    .map(g => g.Name.split(',')[0])
+                    .slice(0, 3)
+                    .join(' • ');
+
+                const detailsHTML = tableGuests.map(guest => `
+                    <div class="detail-row">
+                        <strong>${guest.Name}</strong>
+                        <small>${guest.Cantidad} puesto(s)</small>
+                    </div>
+                `).join('');
+
+                const card = document.createElement('div');
+
+                card.className = 'guest-card table-summary-card';
+
+                card.innerHTML = `
+                    <div class="guest-info">
+
+                        <h3>Mesa ${tableNumber}</h3>
+
+                        <span>
+                            ${totalPeople} personas
+                        </span>
+
+                        <div class="table-preview">
+                            ${namesPreview}
+                        </div>
+
+                        <div class="table-details">
+                            ${detailsHTML}
+                        </div>
+
+                    </div>
+
+                    <div class="table-badge">
+                        <span>Mesa</span>
+                        <strong>${tableNumber}</strong>
+                    </div>
+                `;
+
+                resultsContainer.appendChild(card);
+
+                // =========================
+                // EXPANDIR / CERRAR
+                // =========================
+
+                card.addEventListener('click', () => {
+
+                    const details = card.querySelector('.table-details');
+
+                    details.classList.toggle('expanded');
+
+                });
+
+            });
+    }
 
     // =========================
-    // BÚSQUEDA
+    // BUSCADOR
     // =========================
+
     searchInput.addEventListener('input', (e) => {
 
         const searchTerm = normalizeString(e.target.value.trim());
 
-        resultsContainer.innerHTML = '';
+        if (searchTerm.length < 2) {
 
-        // Si no hay búsqueda → mostrar mesas
-        if (searchTerm.length === 0) {
             renderTablesOverview();
             return;
         }
 
-        // Esperar mínimo 2 letras
-        if (searchTerm.length < 2) return;
+        resultsContainer.innerHTML = '';
 
         const filteredGuests = guests.filter(guest => {
 
-            if (!guest.Name || guest.Confirmado !== "Yes") return false;
+            if (!guest.Name || guest.Confirmado !== "Yes") {
+                return false;
+            }
 
             return normalizeString(guest.Name)
                 .includes(searchTerm);
@@ -136,15 +141,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (filteredGuests.length === 0) {
 
             resultsContainer.innerHTML = `
-                <p style="color: #8D8D8D; margin-top: 20px; font-size: 0.9rem;">
-                    No encontramos ningún invitado confirmado con ese nombre.
-                    Intenta buscar solo por tu primer nombre o apellido.
-                </p>`;
+                <p style="
+                    color: #8D8D8D;
+                    margin-top: 20px;
+                    font-size: 0.9rem;
+                ">
+                    No encontramos ningún invitado confirmado.
+                </p>
+            `;
 
             return;
         }
 
-        // Render invitados
         filteredGuests.forEach(guest => {
 
             const card = document.createElement('div');
@@ -153,11 +161,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
             card.innerHTML = `
                 <div class="guest-info">
+
                     <h3>${guest.Name}</h3>
 
                     <span>
                         Puestos reservados: ${guest.Cantidad}
                     </span>
+
                 </div>
 
                 <div class="table-badge">
@@ -169,4 +179,34 @@ document.addEventListener('DOMContentLoaded', () => {
             resultsContainer.appendChild(card);
         });
     });
+
+    // =========================
+    // COPIAR CUENTA
+    // =========================
+
+    const copyButton = document.getElementById('copyButton');
+
+    if (copyButton) {
+
+        copyButton.addEventListener('click', async () => {
+
+            const accountNumber = document
+                .getElementById('accountNumber')
+                .innerText
+                .trim();
+
+            await navigator.clipboard.writeText(accountNumber);
+
+            const feedback = document.getElementById('copyFeedback');
+
+            feedback.classList.add('show-feedback');
+
+            setTimeout(() => {
+
+                feedback.classList.remove('show-feedback');
+
+            }, 2200);
+        });
+    }
+
 });
