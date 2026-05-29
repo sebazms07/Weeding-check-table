@@ -177,3 +177,59 @@ header p {
 .hidden {
     display: none;
 }
+.gift-section {
+    margin-top: 50px;
+    padding: 30px 25px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.gift-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #D4A373;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.gift-section p {
+    color: #8D8D8D;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.gift-account {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.gift-account span {
+    color: #8D8D8D;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.gift-account strong {
+    font-size: 1.1rem;
+    color: #4A4A4A;
+}
+
+.account-number {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #D4A373;
+    letter-spacing: 2px;
+}
+
+.gift-account small {
+    color: #8D8D8D;
+    font-size: 0.8rem;
+}
