@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestra Boda | Encuentra tu Mesa</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sebas & Mile ✨</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css?v=6">
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -17,44 +19,26 @@
             <h1>Sebas & Mile</h1>
             <p>Encuentra tu mesa para celebrar con nosotros</p>
         </header>
-
         <main>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Escribe tu nombre o apellido..." autocomplete="off">
-            </div>
-
-            <div id="results" class="results-container">
-            </div>
+            <div class="search-box"> <input type="text" id="searchInput" placeholder="Escribe tu nombre o apellido..."
+                    autocomplete="off"> </div>
+            <div id="results" class="results-container"></div>
             <section class="gift-section">
-
                 <h2>Un detalle con cariño</h2>
-
-                <p>
-                    Tu presencia es lo más importante para nosotros y estamos felices de compartir este día contigo.
+                <p> Tu presencia es lo más importante para nosotros y estamos felices de compartir este día contigo.
                 </p>
-
-                <p>
-                    Si tenías pensado acompañarnos también con un detalle y prefieres hacerlo de manera digital,
-                    dejamos esta opción disponible con mucho cariño.
-                </p>
-
+                <p> Si tenías pensado acompañarnos también con un detalle y prefieres hacerlo de manera digital, dejamos
+                    esta opción disponible con mucho cariño. </p>
                 <div class="gift-account">
-
-                    <span>Llave Bancolombia</span>
-                    <div class="account-number">
-                        3007209807
-                    </div>
-
-                    <small>
-                        Sebastián Meneses
-                    </small>
-
+                    <div class="gift-icon"> <i class="fa-solid fa-gift"></i> </div> <span>Llave Bancolombia</span>
+                    <div class="account-number" id="accountNumber"> 3007209807 </div> <small> Sebastián Meneses </small>
+                    <button class="copy-button" id="copyButton"> <i class="fa-regular fa-copy"></i> Copiar número
+                    </button>
+                    <div class="copy-feedback" id="copyFeedback"> Número copiado ✨ </div>
                 </div>
-
             </section>
         </main>
     </div>
-
     <script src="app.js"></script>
 </body>
 
